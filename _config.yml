@@ -4,10 +4,10 @@
 title: Bay Jekyll Theme
 description: >- # this means to ignore newlines until "baseurl:"
   Bay is a minimal Jekyll Theme.
-baseurl: "/bay" # the subpath of the site
-url: "https://eliottvincent.github.io" # the base hostname & protocol for the site
+baseurl: '' # the subpath of the site
+url: 'https://eliottvincent.github.io' # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
-google_analytics: "UA-121636368-3"
+google_analytics: 'UA-121636368-3'
 
 header:
   pages:
@@ -24,12 +24,12 @@ footer:
       value: yourmail@domain.com
     - type: wechat
       value: YourWeChatUsername
-      link: "#"
+      link: '#'
   follow:
     - type: twitter
       name: Twitter
       link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
+      username: '@YourTwitterUsername'
     - type: facebook
       name: Facebook
       link: http://facebook.com/YourFacebookUsername
@@ -49,7 +49,7 @@ footer:
 # Build settings
 markdown: kramdown
 sass:
-    style: :compressed
+  style: :compressed
 plugins:
   - jekyll-feed
 
